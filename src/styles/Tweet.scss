@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fffbd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+.main-heading{
+    font-size: 2rem;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input,button{
+        padding: 0.5rem;
+        font-size: 2rem;
+        border: none;
+        background: white;
+    }
+    button{
+        cursor: pointer;
+        color: #b20a2c;
+        background: #f8f5dd;
+    }
+    button:hover{
+        background: #b20a2c;
+        color: #f8f5dd;
+    }
+}
+.tweet-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .message-list{
+        list-style: none;
+        min-width: 24%;
+
+
+    }
+    .message{
+        margin: 1rem;
+        background: white;
+        color: black;
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 1.5rem;
+        padding: .5rem;
+        li{
+            flex: 1;
+        }
+        button{
+            background: hsl(348, 90%, 73%);
+            color: white;
+            border: none;
+            margin-left: 0.2rem;
+            padding: 0.5rem;
+            border-radius: 2rem;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+    }
+}
