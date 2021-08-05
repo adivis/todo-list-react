@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #0f0c29;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#24243e), color-stop(#302b63), to(#0f0c29));
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+.main-heading {
+  font-size: 2rem;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form input, form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: #c7fae8;
+}
+
+form input {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+form button {
+  cursor: pointer;
+  color: #1D1941;
+  background: #c7fae8;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+form button:hover {
+  background: #302b58;
+  color: #c7fae8;
+}
+
+.tweet-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tweet-container .message-list {
+  list-style: none;
+  min-width: 24%;
+}
+
+.tweet-container .tweet-message {
+  padding: 0.5rem 1rem;
+}
+
+.tweet-container .message {
+  margin: 1rem;
+  background: #453f79;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 1.5rem;
+  padding: .5rem;
+}
+
+.tweet-container .message li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.tweet-container .message button {
+  background: #282354;
+  color: white;
+  border: none;
+  margin-left: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=Tweet.css.map */

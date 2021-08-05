@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 body{
-    background: #fffbd5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -30,16 +30,22 @@ form{
         padding: 0.5rem;
         font-size: 2rem;
         border: none;
-        background: white;
+        background: #c7fae8;
+    }
+    input{
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
     }
     button{
         cursor: pointer;
-        color: #b20a2c;
-        background: #f8f5dd;
+        color: #1D1941;
+        background: #c7fae8;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
     }
     button:hover{
-        background: #b20a2c;
-        color: #f8f5dd;
+        background: #302b58;
+        color: #c7fae8;
     }
 }
 .tweet-container{
@@ -52,10 +58,13 @@ form{
 
 
     }
+    .tweet-message{
+        padding: 0.5rem 1rem;
+    }
     .message{
         margin: 1rem;
-        background: white;
-        color: black;
+        background: #453f79;
+        color: white;
         display: flex;
         font-size: 1.5rem;
         justify-content: space-between;
@@ -66,7 +75,7 @@ form{
             flex: 1;
         }
         button{
-            background: hsl(348, 90%, 73%);
+            background: #282354;
             color: white;
             border: none;
             margin-left: 0.2rem;
